@@ -12,26 +12,26 @@
  *
  *      * Return: Always 0 (Success)
  *
- *       */
-int main()
+ */
+int main(void)
 {
 	int n , ch;
-        for (ch = 48; ch <= 57; ch++)
-        {
-                for (n = 49; n <= 57; n++)
-                {
-                        if(n>ch)
-                        {
-                                putchar(ch);
-                                putchar(n);
+	for (ch = 48; ch <= 57; ch++)
+	{
+		for (n = 49; n <= 57; n++)
+		{
+			if(n>ch)
+			{
+				putchar(ch);
+				putchar(n);
 				if(ch != 56 || n != 57)
-                                {
-                                        putchar(44);
-                                        putchar(32);
-															                                }
-                        }
-                }
-        }
+				{
+					putchar(44);
+					putchar(32);
+				}
+			}						
+		}		
+	}
 	putchar('\n');
 	return 0;
 }
