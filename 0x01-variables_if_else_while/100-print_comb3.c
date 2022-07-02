@@ -15,12 +15,12 @@
  */
 int main(void)
 {
-	int n , ch;
+	int n,ch;
 	for (ch = 48; ch <= 57; ch++)
 	{
 		for (n = 49; n <= 57; n++)
 		{
-			if(n>ch)
+			if(n > ch)
 			{
 				putchar(ch);
 				putchar(n);
@@ -33,5 +33,5 @@ int main(void)
 		}		
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
