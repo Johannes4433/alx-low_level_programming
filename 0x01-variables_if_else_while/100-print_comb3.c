@@ -20,11 +20,11 @@ int main (void)
 	{
 		for (n = 49; n <= 57; n++)
 		{
-			if(n > ch)
+			if (n > ch)
 			{
 				putchar(ch);
 				putchar(n);
-				if(ch != 56 || n != 57)
+				if (ch != 56 || n != 57)
 				{
 					putchar(44);
 					putchar(32);
