@@ -13,9 +13,9 @@
  *      * Return: Always 0 (Success)
  *
  */
-int main(void)
+int main (void)
 {
-	int n,ch;
+	int n, ch;
 	for (ch = 48; ch <= 57; ch++)
 	{
 		for (n = 49; n <= 57; n++)
