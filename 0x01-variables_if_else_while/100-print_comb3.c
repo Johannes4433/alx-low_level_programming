@@ -4,18 +4,19 @@
  *
  *  * main - Entry point
  *
- *   *
+ *   
  *
  *    * Description: A C program that prints with printf function.
  *
- *     *
+ *     
  *
  *      * Return: Always 0 (Success)
  *
  */
-int main (void)
+int main(void)
 {
 	int n, ch;
+
 	for (ch = 48; ch <= 57; ch++)
 	{
 		for (n = 49; n <= 57; n++)
