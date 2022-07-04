@@ -5,10 +5,9 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+	int n,q;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int q;
 	q=n%10;
 	q=abs(q);
 	if(q >5)
